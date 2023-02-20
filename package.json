@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "jest",
+    "test-e": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build": "tsc -p tsconfig.build.json"
   },
   "author": "",
